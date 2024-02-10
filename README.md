@@ -1,4 +1,4 @@
-# Predict-Future-Sales
+# Predict-Future-Sales (The outcome — 1st place! 🏆💡) 10/02/24
 
 Description
 This challenge serves as final project for the "How to win a data science competition" Coursera course.
