@@ -1,8 +1,32 @@
-# Predict-Future-Sales (The outcome — 1st place! 🏆💡) 10/02/24
+# Predict Future Sales
 
-Description
-This challenge serves as final project for the "How to win a data science competition" Coursera course.
+Проект по прогнозированию месячных продаж товаров по магазинам на основе исторических транзакций.
 
-In this competition you will work with a challenging time-series dataset consisting of daily sales data, kindly provided by one of the largest Russian software firms - 1C Company. 
+Задача основана на соревновании Kaggle **Predict Future Sales** и курсе *How to Win a Data Science Competition*.
 
-We are asking you to predict total sales for every product and store in the next month. By solving this competition you will be able to apply and enhance your data science skills.
+## Задача
+
+Для каждой пары `товар × магазин` требуется спрогнозировать объём продаж на следующий месяц.
+
+## Что исследуется
+
+- временные ряды продаж;
+- агрегация транзакций по месяцам;
+- лаговые признаки;
+- сезонность;
+- признаки товара и магазина;
+- обучение и валидация модели на временном разбиении.
+
+## Стек
+
+`Python` · `pandas` · `NumPy` · `scikit-learn` · `Jupyter` · `time series`
+
+## Основной материал
+
+Анализ и моделирование находятся в ноутбуке:
+
+[`tuture-sales-dsw.ipynb`](tuture-sales-dsw.ipynb)
+
+## Что показывает проект
+
+Проект демонстрирует подход к задаче прогнозирования спроса, где важно корректно работать со временем, лагами и валидацией без утечки будущей информации.
